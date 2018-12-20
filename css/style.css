@@ -146,8 +146,8 @@ input[type="radio"].visually-hidden {
 .site-navigation__item {
   display: block;
   position: relative;
-  padding-top: 75px;
-  padding-bottom: 30px;
+  padding-top: 80px;
+  padding-bottom: 20px;
   text-align: center;
   cursor: pointer;
   border-top: 1px solid #f6f6f6;
@@ -173,7 +173,8 @@ input[type="radio"].visually-hidden {
 
 .site-navigation__foto {
   position: absolute;
-  top: -10px;
+  /*top: -10px;*/
+  top: 0;
   bottom: 20px;
   width: 100%;
   display: flex;
@@ -185,7 +186,8 @@ input[type="radio"].visually-hidden {
 
 .site-navigation__gift {
   position: absolute;
-  top: -10px;
+  /*top: -10px;*/
+  top: 0;
   bottom: 20px;
   width: 100%;
   display: flex;
@@ -197,7 +199,8 @@ input[type="radio"].visually-hidden {
 
 .site-navigation__map {
   position: absolute;
-  top: -10px;
+  /*top: -10px;*/
+  top: 0;
   bottom: 20px;
   width: 100%;
   display: flex;
@@ -482,7 +485,7 @@ input[type="radio"].visually-hidden {
   font-family: "GothamPro-Medium";
   font-size: 3rem;
   line-height: 3.5rem;
-  letter-spacing: -3px;
+  /*letter-spacing: -3px;*/
   padding-left: 4rem;
   color: #000000;
 }
@@ -1029,7 +1032,8 @@ input[type="radio"].visually-hidden {
 
 @media (max-width: 680px) {
   .main-footer {
-    height: 7.5rem;
+    /*height: 7.5rem;*/
+    height: 42px;
   }
 
   .footer-logo,
@@ -1046,7 +1050,7 @@ input[type="radio"].visually-hidden {
   .mir,
   .youtube {
     width: 45px;
-    background-size: 6.8rem;
+    background-size: 5.8rem;
   }
 }
 
